@@ -16,7 +16,7 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
-group 'com.harvie.plugin'
+group 'com.unit.testplugin'
 version '0.0.1'
 
 def gitUrl = 'https://github.com/harvie1208/TracePoint.git'
@@ -96,7 +96,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "TracePoint" //项目名称
+        name = "testPlugin" //项目名称
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
